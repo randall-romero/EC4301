@@ -9,3 +9,5 @@ def set_css_style(css_file_path):
    styles = open(css_file_path, "r").read()
    s = '<style>%s</style>' % styles     
    return HTML(s)
+
+#TODO borrar este archivo del repositorio en github
