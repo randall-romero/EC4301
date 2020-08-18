@@ -1,0 +1,17 @@
+h1 {
+    font-size: 200%;
+    color:white; 
+    background-color: #0064b0;
+}
+
+h2 {
+    font-size: 150%;
+    color:white; 
+    background-color: #e07b39;
+}
+
+h3 {
+    font-size: 125%;
+    color: gray;
+    background-color: #cce7e8;
+}
