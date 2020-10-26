@@ -1,0 +1,31 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}          &               0                & \textbf{  No. Observations:  } &    108      \\
+\textbf{Model:}                  & SARIMAX(0, 1, 1)x(0, 1, 1, 12) & \textbf{  Log Likelihood     } &  194.101    \\
+\textbf{Date:}                   &        Mon, 26 Oct 2020        & \textbf{  AIC                } &  -382.202   \\
+\textbf{Time:}                   &            10:29:31            & \textbf{  BIC                } &  -374.540   \\
+\textbf{Sample:}                 &           01-31-2011           & \textbf{  HQIC               } &  -379.106   \\
+\textbf{}                        &          - 12-31-2019          & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                  & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{ma.L1}    &      -0.6109  &        0.087     &    -7.026  &         0.000        &       -0.781    &       -0.440     \\
+\textbf{ma.S.L12} &      -0.7647  &        0.117     &    -6.522  &         0.000        &       -0.994    &       -0.535     \\
+\textbf{sigma2}   &       0.0009  &        0.000     &     6.346  &         0.000        &        0.001    &        0.001     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Ljung-Box (Q):}          & 47.51 & \textbf{  Jarque-Bera (JB):  } & 0.23  \\
+\textbf{Prob(Q):}                &  0.19 & \textbf{  Prob(JB):          } & 0.89  \\
+\textbf{Heteroskedasticity (H):} &  1.56 & \textbf{  Skew:              } & 0.09  \\
+\textbf{Prob(H) (two-sided):}    &  0.21 & \textbf{  Kurtosis:          } & 3.16  \\
+\bottomrule
+\end{tabular}
+%\caption{SARIMAX Results}
+\end{center}
+
+Warnings: \newline
+ [1] Covariance matrix calculated using the outer product of gradients (complex-step).
